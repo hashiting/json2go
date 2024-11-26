@@ -384,7 +384,7 @@ func getValueKind(val reflect.Value) string {
 		case reflect.Map:
 			return "slicemap"
 		case reflect.Slice:
-			v0 := val.Index(0).Index(0)
+			v0 := v.Index(0)
 			switch v0.Type().Kind() {
 			case reflect.Float64:
 				vv := v0.Float()
