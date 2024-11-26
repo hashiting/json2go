@@ -1,4 +1,4 @@
-github.com/hashiting/json2go v0.0.0-20241126030846-fae9c11690cc h1:K30jrOSdXOlIrkHMBdaOQZqjWzWmP8o5ckX0ze1LjOg=
-github.com/hashiting/json2go v0.0.0-20241126030846-fae9c11690cc/go.mod h1:L9PprmD0KQu6O8dZCxjN7gShxQM6XOQuFGJebL5M5Ww=
+github.com/hashiting/json2go v0.0.0-20241126031842-ee8fc968bfff h1:v43Nu92tTpfelGAzXWOjxzuRLQx0jH6/UaXm+x4dAsY=
+github.com/hashiting/json2go v0.0.0-20241126031842-ee8fc968bfff/go.mod h1:L9PprmD0KQu6O8dZCxjN7gShxQM6XOQuFGJebL5M5Ww=
 github.com/mohae/firkin v0.0.0-20160628234414-44b753e65e9f h1:Hopn0Rd4BiAOBh5TJJPGT1nuoLli+mkwd+HM8aJ1cJw=
 github.com/mohae/firkin v0.0.0-20160628234414-44b753e65e9f/go.mod h1:plySA1kLrKvjFpcF2tXoY6VPG+g2w6RdeoHqoxu+smA=
