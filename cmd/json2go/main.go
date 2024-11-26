@@ -38,7 +38,7 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/mohae/json2go"
+	"github.com/hashiting/json2go"
 )
 
 // handle flags that are string arrays
