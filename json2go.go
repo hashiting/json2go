@@ -384,10 +384,6 @@ func getValueKind(val reflect.Value) string {
 		case reflect.Map:
 			return "slicemap"
 		case reflect.Slice:
-			if v.Len() == 0 {
-				fmt.Printf("#### [][]interface{} ####")
-				return fmt.Sprint("[][]interface{}")
-			}
 			v0 := v.Index(0)
 			switch v0.Kind() {
 			case reflect.Float64:
