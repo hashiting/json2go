@@ -384,22 +384,7 @@ func getValueKind(val reflect.Value) string {
 		case reflect.Map:
 			return "slicemap"
 		case reflect.Slice:
-			if v.Len() == 0 {
-				return fmt.Sprint("[][]interface{}")
-			}
-			v0 := v.Index(0)
-			if v0.Kind() == reflect.Slice && v0.Len() > 0 {
-				v0 = v0.Index(0)
-			}
-			switch v0.Kind() {
-			case reflect.Float64:
-				vv := v0.Float()
-				if vv == float64(int64(vv)) {
-					return fmt.Sprintf("[][]%s", reflect.Int.String())
-				}
-				return fmt.Sprintf("[][]%s", reflect.Float64.String())
-			}
-			return fmt.Sprintf("[][]%s", v0.Kind().String())
+			return fmt.Sprintf("[][]string")
 		}
 		return fmt.Sprintf("[]%s", v.Type().Kind().String())
 	}
